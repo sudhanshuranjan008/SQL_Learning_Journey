@@ -1,0 +1,23 @@
+# Ignore all .log files
+*.log
+
+# Ignore database backup files
+*.bak
+*.sqlbak
+
+# Ignore all temporary files
+*.swp
+
+# Ignore all files in node_modules (if you're using Node.js)
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments (if using virtualenv or venv)
+venv/
+.venv/
+
+# Ignore dataset files (optional, in case you don't want to upload large files)
+dataset/
