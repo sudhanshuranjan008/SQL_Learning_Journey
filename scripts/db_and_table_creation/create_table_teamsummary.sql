@@ -10,11 +10,11 @@
 USE IPL2021_2023;
 
 CREATE TABLE teamsummary(
-	[Player Name] NVARCHAR(50) NOT NULL,        -- Name of the Player (using 'sqaure brackets' as there is a 'space' in column name)
-	Team NVARCHAR(50) NOT NULL,                 -- Team name of the player
-	[Batting Style] NVARCHAR(50) NOT NULL,      -- Batting style of the player
-	[Bowling Style] NVARCHAR(50) NOT NULL,      -- Bowling style of the player
-	[Playing Role] NVARCHAR(50) NOT NULL);      -- Role of the player in the team
+	PlayerName NVARCHAR(50) NOT NULL,         -- Name of the Player
+	Team NVARCHAR(50) NOT NULL,               -- Team name of the player
+	BattingStyle NVARCHAR(50) NOT NULL,       -- Batting style of the player
+	BowlingStyle NVARCHAR(50) NOT NULL,      -- Bowling style of the player
+	PlayingRole NVARCHAR(50) NOT NULL);      -- Role of the player in the team
 
 
 --Step 2: Insert data from an existing table in another databse
