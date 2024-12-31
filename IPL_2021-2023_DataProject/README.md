@@ -15,17 +15,15 @@ You can download it from the Kaggle website and use it in your local environment
 - Modify data types and sizes of columns as required.
 
 ## Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sudhanshuranjan008/IPL_2021-2023_DataProject.git
-   ```
-2. Download the IPL dataset from Kaggle and import it into your SQL environment.
-3. Run the SQL scripts in the `scripts/` folder to set up the database and tables:
+1. Download the IPL dataset from Kaggle and import it into your SQL environment.
+2. Run the SQL scripts in the `scripts/` folder to set up the database and tables:
    - **create_database.sql**: Creates the `IPL2021_2023` database.
    - **create_table_batsummary.sql**: Creates the `batsummary` table for batting statistics.
    - **create_table_bowlsummary.sql**: Creates the `bowlsummary` table for bowling statistics.
    - **create_table_matchsummary.sql**: Creates the `matchsummary` table for match data.
    - **create_table_teamsummary.sql**: Creates the `teamsummary` table for team and players data.
+3. After setting up database and tables, you can practice SQL queries table or SQL method wise.
+
 
 ## Files
 - `create_database.sql`: Creates the IPL_Project database 'IPL2021_2023'.
